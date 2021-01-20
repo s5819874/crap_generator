@@ -45,4 +45,4 @@ Express is now listening on http://localhost:3000
 
 ## Web Home Page - 專案首頁
 
-![image]()
+![image](https://github.com/s5819874/crap_generator/blob/master/homepage.png)
