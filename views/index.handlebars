@@ -1,0 +1,36 @@
+<div class="d-flex flex-column align-items-center ">
+  <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg"
+    class="img-fluid rounded mb-2" alt="Responsive image" style="width: 320px; height: 250px;">
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="radio" class="form-check-input" name="job" value="設計師" {{#if_eq option.job "設計師" }} checked
+        {{/if_eq}}>設計師
+    </label>
+  </div>
+</div>
+
+<div class="d-flex flex-column align-items-center ">
+  <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg"
+    class="img-fluid rounded mb-2" alt="Responsive image" style="width: 320px; height: 250px;">
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="radio" class="form-check-input" name="job" value="工程師" {{#if_eq option.job "工程師" }} checked
+        {{/if_eq}}>工程師
+    </label>
+  </div>
+</div>
+
+<div class="d-flex flex-column align-items-center ">
+  <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg"
+    class="img-fluid rounded mb-2" alt="Responsive image" style="width: 320px; height: 250px;">
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="radio" class="form-check-input" name="job" value="創業家" {{#if_eq option.job "創業家" }} checked
+        {{/if_eq}}>創業家
+    </label>
+  </div>
+</div>
+
+<button class="btn btn-danger mb-5 mt-4 ml-5 font-weight-bold" style="height: 45px;" type="submit">產生幹話</button>
+
+<span class="text-danger text-center bg-light mb-5" style="width: 75%; height: 100px; font-size:32px;">{{crap}}</span>
